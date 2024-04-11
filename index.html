@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport", initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <title>Lista de Contatos online
+    </title>
+</head>
+<body>
+
+    <header>
+        <img id="titulo"  src="Imagens/Título ok.png" alt="Título do site e imagem de celular em desenho">
+    </header>
+
+    <div class="flex-container">
+        <div class="container">
+            <form id="form-dados">
+                <label for="nome-contato">Nome</label>
+                <input id="nome-contato" name="nome" type="text" required placeholder="Nome do Contato"/>
+                <label for="tel-contato">Número</label>
+                <input id="tel-contato" name="telefone" type="tel" required placeholder="(00) 0000-0000" />
+                <button type="submit">Cadastrar</button>
+    
+            </form>
+        </div>
+        <div class="container">
+            <table id="tabela" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Nome </th>
+                        <th>Telefone </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td> 
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Contatos Cadastrados</td>
+                        <td id="cadastrados"></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+
+    
+    <footer>
+        <div>
+            <p>&copy; Lista de Contatos online - Vívian Morato - Todos Os Direitos Reservados.</p>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
